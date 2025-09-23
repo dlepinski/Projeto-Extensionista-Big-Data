@@ -10,7 +10,7 @@ Python, com suas poderosas bibliotecas e frameworks, oferece uma solução robus
 
 # Projeto Extensionista Tópicos de Big Data em Python
 
-![chatbot](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQekiFaZHw8Ba68idIPBQcu4sa4TcaSn8sifg&s)
+![chatbot](unnamed.png)
 
 ## 🌟 Funcionalidades Principais
 
@@ -78,7 +78,11 @@ jupyter notebook
 
 ## 👥 Equipe
 
+- Daniela - 
 - Sandra - Desenvolvimento back-end
+- Gilberto - 
+- Camila -
+- Eloy - 
 
 ## 📞 Suporte
 
