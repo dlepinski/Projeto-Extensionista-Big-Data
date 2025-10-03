@@ -6,7 +6,7 @@
 
 Python, com suas poderosas bibliotecas e frameworks, oferece uma solução robusta para lidar com Big Data de forma eficiente. Lidar com volumes tão grandes de dados exige mais do que apenas a capacidade de armazenar e recuperar dados. São necessárias técnicas avançadas para processar, analisar e interpretar esses dados de forma significativa.
 
-[Saiba mais aqui](https://medium.com/@etimfonime/handling-big-data-with-python-ee3e15cb981e)
+Saiba mais sobre Tópicos de Big Data em Python clicando [aqui](https://medium.com/@etimfonime/handling-big-data-with-python-ee3e15cb981e)
 
 # Projeto Extensionista Tópicos de Big Data em Python
 
@@ -78,17 +78,15 @@ jupyter notebook
 
 ## 👥 Equipe
 
-- Daniela - 
-- Sandra - Desenvolvimento back-end
-- Gilberto - 
-- Camila -
-- Eloy - 
+- Daniela - Gerente de Projeto
+- Sandra - Desenvolvedora
+- Gilberto - Analista de negócios
+- Camila - Analista de negócios
+- Eloy - Desenvolvedor 
 
 ## 📞 Suporte
 
 - [Abra uma Issue](https://github.com/dlepinski/Projeto-Extensionista-Big-Data/issues)
-- Entre em contato com a equipe por email:
-  - [Sandra](mailto:sandra.rjandrade@outlook.com)
 
 ## 🔗 Links Úteis
 
