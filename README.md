@@ -8,72 +8,87 @@ Python, com suas poderosas bibliotecas e frameworks, oferece uma solução robus
 
 Saiba mais sobre Tópicos de Big Data em Python clicando [aqui](https://medium.com/@etimfonime/handling-big-data-with-python-ee3e15cb981e)
 
-# Projeto Extensionista Tópicos de Big Data em Python
-
 ![chatbot](unnamed.png)
 
-## 🌟 Funcionalidades Principais
+# 🎬 Projeto Extensionista: Análise de Dados de Filmes com Big Data em Python
+
+## 📚 Descrição
+
+Este projeto tem como objetivo realizar uma análise exploratória de dados (EDA) sobre o mercado cinematográfico, utilizando Python e suas principais bibliotecas para Big Data. A partir de um dataset real de filmes, são extraídos insights estratégicos para decisões de investimento, avaliação de risco e otimização de portfólio no setor audiovisual.
+
+## 🚩 Principais Funcionalidades
+
+- Limpeza e preparação de dados de filmes (IMDb)
+- Engenharia de atributos relevantes (lucro, idade, gêneros, etc.)
+- Análises estatísticas e visuais:
+  - Correlação entre orçamento e arrecadação
+  - Rentabilidade por gênero
+  - Evolução temporal de lucro, orçamento e nota IMDb
+  - Identificação de outliers e padrões de risco
+- Visualizações interativas com Matplotlib e Seaborn
+- Relatório conclusivo para tomada de decisão
+
+## 📦 Tecnologias Utilizadas
+
+- Python 3.7+
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
 
 ## 🚀 Como Começar
 
 ### Pré-requisitos
 
-- Python 3.7+
+- Python 3.7 ou superior
 - Jupyter Notebook
-- Git (opcional)
 - pip (gerenciador de pacotes Python)
+- Git (opcional)
 
 ### 🔧 Instalação
 
 1. Clone o repositório:
 
-```bash
-git clone 
-cd chatbot_ideal_contabil
-```
+    ```bash
+    git clone https://github.com/dlepinski/Projeto-Extensionista-Big-Data.git
+    cd Projeto-Extensionista-Big-Data
+    ```
 
-2. Instale o Jupyter Notebook:
+2. Instale o Jupyter Notebook (caso não tenha):
 
-Se você ainda não tiver o Jupyter Notebook instalado, instale-o usando pip
+    ```bash
+    pip install notebook
+    ```
+    ou, via Anaconda:
+    ```bash
+    conda install -c conda-forge notebook
+    ```
 
-```bash
-pip install notebook
-```
+3. Instale as dependências do projeto:
 
-Ou, se você estiver usando o Anaconda:
-
-```bash
-conda install -c conda-forge notebook
-```
-
-3. Instale as dependências do Python:
-
-
-## 💻 Uso
-
-1. Inicie o servidor:
-
-```bash
-jupyter notebook
-```
-
-2. Abra o notebook principal:
-
-- Navegue até `app.ipynb`
-- Execute todas as células em ordem
+    ```bash
+    pip install pandas numpy matplotlib seaborn openpyxl
+    ```
 
 ## 🗂️ Estrutura do Projeto
 
 ```
-
+Projeto-Extensionista-Big-Data/
+│
+├── app.ipynb              # Notebook principal com toda a análise
+├── filmes.xlsx            # Base de dados dos filmes (IMDb)
+├── unnamed.png            # Imagem ilustrativa
+├── README.md              # Este arquivo
+└── ...                    # Outros arquivos e recursos
 ```
 
 ## 🤝 Como Contribuir
 
-1. Faça um Fork do projeto
-2. Crie sua Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a Branch (`git push origin feature/AmazingFeature`)
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/SuaFeature`)
+3. Commit suas alterações (`git commit -m 'Minha contribuição'`)
+4. Faça push para a branch (`git push origin feature/SuaFeature`)
 5. Abra um Pull Request
 
 ## 👥 Equipe
@@ -91,4 +106,8 @@ jupyter notebook
 ## 🔗 Links Úteis
 
 - [Jupyter Notebook](https://jupyter.org/)
-  
+- [Artigo: Handling Big Data with Python](https://medium.com/@etimfonime/handling-big-data-with-python-ee3e15cb981e)
+
+---
+
+> Projeto desenvolvido para a disciplina de Tópicos de Big Data em Python — Estácio de São Paulo - 2025.
