@@ -97,7 +97,7 @@ Projeto-Extensionista-Big-Data/
 - Sandra - Desenvolvedora 
 - Gilberto - Analista de negócios
 - Camila - Analista de negócios
-- Eloy - 
+- Eloy - Analista de Requisitos
 
 ## 📞 Suporte
 
