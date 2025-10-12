@@ -94,10 +94,10 @@ Projeto-Extensionista-Big-Data/
 ## 👥 Equipe
 
 - Daniela - Gerente de Projeto
-- Sandra - Desenvolvedora
+- Sandra - Desenvolvedora 
 - Gilberto - Analista de negócios
 - Camila - Analista de negócios
-- Eloy - Desenvolvedor 
+- Eloy - 
 
 ## 📞 Suporte
 
