@@ -1,1 +1,113 @@
-# Projeto Extensionista Big Data
+|Faculdade |Curso|Disciplina |Professor|Ano|
+| :- | :- | :- | :- | :- |
+|Estácio de São Paulo|ADS|Tópicos de Big Data em Python|Prof. Fabio Oliveira|2025|
+
+## 📝 Análise de Dados
+
+Python, com suas poderosas bibliotecas e frameworks, oferece uma solução robusta para lidar com Big Data de forma eficiente. Lidar com volumes tão grandes de dados exige mais do que apenas a capacidade de armazenar e recuperar dados. São necessárias técnicas avançadas para processar, analisar e interpretar esses dados de forma significativa.
+
+Saiba mais sobre Tópicos de Big Data em Python clicando [aqui](https://medium.com/@etimfonime/handling-big-data-with-python-ee3e15cb981e)
+
+![chatbot](unnamed.png)
+
+# 🎬 Projeto Extensionista: Análise de Dados de Filmes com Big Data em Python
+
+## 📚 Descrição
+
+Este projeto tem como objetivo realizar uma análise exploratória de dados (EDA) sobre o mercado cinematográfico, utilizando Python e suas principais bibliotecas para Big Data. A partir de um dataset real de filmes, são extraídos insights estratégicos para decisões de investimento, avaliação de risco e otimização de portfólio no setor audiovisual.
+
+## 🚩 Principais Funcionalidades
+
+- Limpeza e preparação de dados de filmes (IMDb)
+- Engenharia de atributos relevantes (lucro, idade, gêneros, etc.)
+- Análises estatísticas e visuais:
+  - Correlação entre orçamento e arrecadação
+  - Rentabilidade por gênero
+  - Evolução temporal de lucro, orçamento e nota IMDb
+  - Identificação de outliers e padrões de risco
+- Visualizações interativas com Matplotlib e Seaborn
+- Relatório conclusivo para tomada de decisão
+
+## 📦 Tecnologias Utilizadas
+
+- Python 3.7+
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
+
+## 🚀 Como Começar
+
+### Pré-requisitos
+
+- Python 3.7 ou superior
+- Jupyter Notebook
+- pip (gerenciador de pacotes Python)
+- Git (opcional)
+
+### 🔧 Instalação
+
+1. Clone o repositório:
+
+    ```bash
+    git clone https://github.com/dlepinski/Projeto-Extensionista-Big-Data.git
+    cd Projeto-Extensionista-Big-Data
+    ```
+
+2. Instale o Jupyter Notebook (caso não tenha):
+
+    ```bash
+    pip install notebook
+    ```
+    ou, via Anaconda:
+    ```bash
+    conda install -c conda-forge notebook
+    ```
+
+3. Instale as dependências do projeto:
+
+    ```bash
+    pip install pandas numpy matplotlib seaborn openpyxl
+    ```
+
+## 🗂️ Estrutura do Projeto
+
+```
+Projeto-Extensionista-Big-Data/
+│
+├── app.ipynb              # Notebook principal com toda a análise
+├── filmes.xlsx            # Base de dados dos filmes (IMDb)
+├── unnamed.png            # Imagem ilustrativa
+├── README.md              # Este arquivo
+└── ...                    # Outros arquivos e recursos
+```
+
+## 🤝 Como Contribuir
+
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/SuaFeature`)
+3. Commit suas alterações (`git commit -m 'Minha contribuição'`)
+4. Faça push para a branch (`git push origin feature/SuaFeature`)
+5. Abra um Pull Request
+
+## 👥 Equipe
+
+- Daniela - Gerente de Projeto
+- Sandra - Desenvolvedora 
+- Gilberto - Analista de negócios
+- Camila - Analista de negócios
+- Eloy - Analista de Requisitos
+
+## 📞 Suporte
+
+- [Abra uma Issue](https://github.com/dlepinski/Projeto-Extensionista-Big-Data/issues)
+
+## 🔗 Links Úteis
+
+- [Jupyter Notebook](https://jupyter.org/)
+- [Artigo: Handling Big Data with Python](https://medium.com/@etimfonime/handling-big-data-with-python-ee3e15cb981e)
+
+---
+
+> Projeto desenvolvido para a disciplina de Tópicos de Big Data em Python — Estácio de São Paulo - 2025.
