@@ -12,30 +12,33 @@ Saiba mais sobre Tópicos de Big Data em Python clicando [aqui](https://medium.c
 
 # 🎬 Projeto Extensionista: Análise de Dados de Filmes com Big Data em Python
 
+## Resumo
+- Notebook principal: app_V2.ipynb
+- Base de dados: filmes.xlsx
+- Imagem ilustrativa: unnamed.png
+
 ## 📚 Descrição
 
 Este projeto tem como objetivo realizar uma análise exploratória de dados (EDA) sobre o mercado cinematográfico, utilizando Python e suas principais bibliotecas para Big Data. A partir de um dataset real de filmes, são extraídos insights estratégicos para decisões de investimento, avaliação de risco e otimização de portfólio no setor audiovisual.
 
 ## 🚩 Principais Funcionalidades
 
-- Limpeza e preparação de dados de filmes (IMDb)
-- Engenharia de atributos relevantes (lucro, idade, gêneros, etc.)
-- Análises estatísticas e visuais:
-  - Correlação entre orçamento e arrecadação
-  - Rentabilidade por gênero
-  - Evolução de receita ao longo dos anos
-  - Identificação de outliers 
-- Visualizações interativas com Matplotlib e Seaborn
-- Relatório conclusivo para tomada de decisão
+- Padronização de colunas e limpeza de colunas financeiras.
+- Função explode_genres(df) para separar múltiplos gêneros por linha.
+- Criação da coluna profit_margin: (gross_world_wide - budget) / gross_world_wide.
+- Transformações logarítmicas em gross_* para análise de correlação.
+- Remoção de outliers anuais utilizados na série temporal (anos removidos: 2006 e 2024).
+- Gráficos principais: heatmap de correlação, scatter/log-regression, boxplot (Oscar), contagem de gêneros (top 10) e série temporal Orçamento vs Bilheteria (últimos 10 anos).
 
 ## 📦 Tecnologias Utilizadas
 
 - Python 3.7+
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- openpyxl (leitura do Excel)
+- Jupyter Notebook / JupyterLab
 
 ## 🚀 Como Começar
 
@@ -71,16 +74,23 @@ Este projeto tem como objetivo realizar uma análise exploratória de dados (EDA
     pip install pandas numpy matplotlib seaborn openpyxl
     ```
 
+## Como executar
+
+1. Colocar filmes.xlsx na mesma pasta do notebook.
+2. Abrir app_V2.ipynb no Jupyter Notebook/JupyterLab.
+3. Executar as células na ordem (seções comentadas: Limpeza → Engenharia de Atributos → EDA → Visualizações).
+
+
 ## 🗂️ Estrutura do Projeto
 
 ```
 Projeto-Extensionista-Big-Data/
 │
-├── app.ipynb              # Notebook principal com toda a análise
+├── app_V2.ipynb           # Notebook principal atualizado
 ├── filmes.xlsx            # Base de dados dos filmes (IMDb)
 ├── unnamed.png            # Imagem ilustrativa
 ├── README.md              # Este arquivo
-└── ...                    # Outros arquivos e recursos
+└── ...
 ```
 
 ## 🤝 Como Contribuir
@@ -96,7 +106,6 @@ Projeto-Extensionista-Big-Data/
 - Daniela - Gerente de Projeto
 - Sandra - Desenvolvedora 
 - Gilberto - Analista de negócios
-- Camila - Analista de negócios
 - Eloy - Analista de Requisitos
 
 ## 📞 Suporte
