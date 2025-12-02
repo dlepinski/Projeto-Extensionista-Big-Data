@@ -23,8 +23,8 @@ Este projeto tem como objetivo realizar uma análise exploratória de dados (EDA
 - Análises estatísticas e visuais:
   - Correlação entre orçamento e arrecadação
   - Rentabilidade por gênero
-  - Evolução temporal de lucro, orçamento e nota IMDb
-  - Identificação de outliers e padrões de risco
+  - Evolução de receita ao longo dos anos
+  - Identificação de outliers 
 - Visualizações interativas com Matplotlib e Seaborn
 - Relatório conclusivo para tomada de decisão
 
